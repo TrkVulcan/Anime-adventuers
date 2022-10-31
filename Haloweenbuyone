@@ -14,17 +14,11 @@ while _G.checkcandy do
     
     local value = candy.Value
 
-    task.wait(0.5)
-
     local shardvalue = tonumber(string.match(value, '%d+'))
-
-    task.wait(0.5)
-
-    if shardvalue > 150 then
 
     print(shardvalue)
 
-    task.wait(0.5)
+    if shardvalue > 150 then
 
     local args = {
         [1] = "capsule_halloween",
