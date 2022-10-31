@@ -35,7 +35,6 @@ while _G.checkcandy do
     
     game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_item_generic:InvokeServer(unpack(args))
 end
-end
 
 task.wait(0.5)
 
