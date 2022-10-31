@@ -20,7 +20,7 @@ while _G.checkcandy do
 
     task.wait(0.5)
 
-    if shardvalue > 150 then
+    if shardvalue > 1500 then
 
     print(shardvalue)
 
