@@ -6,7 +6,7 @@ local Check_Function = function()
     for _, Table in ipairs(Players_Service:GetChildren()) do
         print("[".. tostring(_) .."], Player Found.")
 
-        if tonumber(_) > 10 then
+        if tonumber(_) > 7 then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/TrkVulcan/Anime-adventuers/main/normal%20ps", true))()
         end
     end
