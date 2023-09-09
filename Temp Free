@@ -1,4 +1,4 @@
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8d5ce4f5d3f47fd44cc9a8bd1adab2e5.lua"))()
 queue_on_teleport([[
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8d5ce4f5d3f47fd44cc9a8bd1adab2e5.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrkVulcan/Anime-adventuers/main/Temp%20Free"))()
 ]])
